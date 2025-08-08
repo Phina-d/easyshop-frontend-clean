@@ -1,0 +1,35 @@
+.chef-layout {
+  display: flex;
+  height: 100vh;
+}
+
+.chef-sidebar {
+  width: 220px;
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+.chef-sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.chef-sidebar li {
+  margin-bottom: 15px;
+}
+
+.chef-sidebar a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.chef-sidebar a.active {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.chef-content {
+  flex: 1;
+  padding: 30px;
+}

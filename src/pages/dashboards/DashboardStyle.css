@@ -1,0 +1,86 @@
+.dashboard-container {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+}
+
+.dashboard-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #5b21b6; /* violet foncé */
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.dashboard-links {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.5rem;
+  font-weight: 600;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  text-decoration: none;
+}
+
+.btn-primary {
+  background-color: #2563eb; /* bleu */
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: #1e40af; /* bleu plus foncé */
+}
+
+.ml-4 {
+  margin-left: 1rem;
+}
+
+.dashboard-section {
+  margin-bottom: 3rem;
+}
+
+.section-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  border-bottom: 2px solid #c4b5fd; /* violet clair */
+  padding-bottom: 0.25rem;
+  margin-bottom: 1rem;
+  color: #4c1d95;
+}
+
+.dashboard-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.dashboard-table th,
+.dashboard-table td {
+  border: 1px solid #ddd;
+  padding: 0.75rem 1rem;
+  text-align: left;
+}
+
+.dashboard-table th {
+  background-color: #f3f4f6; /* gris clair */
+  font-weight: 700;
+  color: #1e40af;
+}
+
+.dashboard-table tbody tr:nth-child(even) {
+  background-color: #fafafa;
+}
+
+.dashboard-table tbody tr:hover {
+  background-color: #ede9fe; /* violet très clair */
+}
